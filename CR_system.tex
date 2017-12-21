@@ -1,0 +1,124 @@
+\documentclass[11pt]{article}
+\renewcommand{\baselinestretch}{1.05}
+
+\usepackage{amsmath,amsthm,verbatim,amssymb,amsfonts,amscd, graphicx}
+\usepackage{graphics}
+
+\usepackage{xcolor}
+
+\usepackage[hidelinks]{hyperref}
+\usepackage{parskip}
+
+\usepackage{subcaption}
+\usepackage{wrapfig}
+\usepackage{multirow}
+
+\renewcommand{\contentsname}{Table des mati\`eres}
+\renewcommand\refname{R\'ef\'erences}
+
+\topmargin0.0cm
+\headheight0.0cm
+\headsep0.0cm
+\oddsidemargin0.0cm
+\textheight23.0cm
+\textwidth16.5cm
+\footskip1.0cm
+
+\begin{document}
+
+\title{\textbf{Projet de Conception d'un syst\`eme\\ de communication WiFi} \\ \'Etude de la partie syst\`eme}
+\author{Cl\'ement Cheung \\ Mohamed Hage Hassan \medskip\\\medskip \textbf{Encadrant} \medskip \\ Yannis Le Guennec}
+\date{21 D\'ecembre 2017}
+\maketitle
+\thispagestyle{empty}
+
+\renewcommand{\abstractname}{Pr\'eambule}
+
+\begin{abstract}
+
+\end{abstract}
+
+\vskip 5cm
+
+\begin{figure}[!htb]
+\begin{center}
+  \includegraphics[scale=1.2]{phelma-logo.jpg}
+\end{center}
+\end{figure}
+
+\begin{center} \textbf{Institut Polytechnique de Grenoble} \end{center}
+
+\clearpage
+
+\tableofcontents
+\clearpage
+
+\iffalse
+
+\begin{figure}[!htb]
+\begin{center}
+  \includegraphics[scale=0.47]{Echantillonneur-bloqueur.png}
+  \caption{Sch\'ema d'un \'echantilloneur-bloqueur \`a capacit\'e commut\'ee}
+\end{center}
+\end{figure}
+
+\begin{figure}[!htb]
+  \begin{subfigure}[t]{.5\linewidth}
+      \centering
+      \includegraphics[width=1.1\linewidth]{circuit-RC.png}
+      \label{fig:rccircuit}
+  \end{subfigure}%
+  \begin{subfigure}[t]{.5\linewidth}
+    \centering
+    \includegraphics[width=1.1\linewidth]{sim-inital.png}
+    \label{fig:rccircuit-sim}
+  \end{subfigure}%
+  \caption{Sch\'ema et Simulation du circuit}
+  \label{fig:RC-sim}
+\end{figure}
+
+\fi
+
+
+\section{Introduction}
+\section{Objectifs}
+
+\section{Analyse du signal Wifi}
+
+\section{Transmetteur Wifi}
+\subsection{M\'elangeur RF}
+\subsection{Filtre RF}
+\subsection{\'Etude de la non-lin\'earit\'e}
+
+\section{R\'ecepteur Wifi}
+\subsection{Blocs de base}
+\subsection{Sensibilit\'e du r\'ecepteur}
+\subsection{Point d'intermodulation d'ordre 3 du r\'ecepteur IIP3}
+\subsection{SFDR}
+\subsection{Dynamique du r\'ecepteur sans bloqueur}
+\subsection{Dynamique avec un bloqueur}
+
+\section{Cannal de propagation Radio}
+\subsection{Consid\'eration de la propagation en espace libre}
+\subsection{\'Etude de la propagation pour un cannal Wifi}
+
+\section{Conclusion}
+
+\clearpage
+\section{Annexes}
+
+
+\clearpage
+
+\addcontentsline{toc}{section}{R\'ef\'erences}
+
+\begin{thebibliography}{9}
+\bibitem{Projets-Analog}
+\textit{Projets de conception en Micro\'electronique analogique}\\
+\texttt{Laurant Aubard, Fatah Rarbi, Daniel Zahini, Florent Cilici}\\
+\texttt{Institut Polytechnique de Grenoble - Phelma}
+
+\end{thebibliography}
+
+
+\end{document}

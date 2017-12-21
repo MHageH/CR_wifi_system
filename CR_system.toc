@@ -1,0 +1,20 @@
+\contentsline {section}{\numberline {1}Introduction}{3}{section.1}
+\contentsline {section}{\numberline {2}Objectifs}{3}{section.2}
+\contentsline {section}{\numberline {3}Analyse du signal Wifi}{3}{section.3}
+\contentsline {section}{\numberline {4}Transmetteur Wifi}{3}{section.4}
+\contentsline {subsection}{\numberline {4.1}M\'elangeur RF}{3}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Filtre RF}{3}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}\'Etude de la non-lin\'earit\'e}{3}{subsection.4.3}
+\contentsline {section}{\numberline {5}R\'ecepteur Wifi}{3}{section.5}
+\contentsline {subsection}{\numberline {5.1}Blocs de base}{3}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Sensibilit\'e du r\'ecepteur}{3}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Point d'intermodulation d'ordre 3 du r\'ecepteur IIP3}{3}{subsection.5.3}
+\contentsline {subsection}{\numberline {5.4}SFDR}{3}{subsection.5.4}
+\contentsline {subsection}{\numberline {5.5}Dynamique du r\'ecepteur sans bloqueur}{3}{subsection.5.5}
+\contentsline {subsection}{\numberline {5.6}Dynamique avec un bloqueur}{3}{subsection.5.6}
+\contentsline {section}{\numberline {6}Cannal de propagation Radio}{3}{section.6}
+\contentsline {subsection}{\numberline {6.1}Consid\'eration de la propagation en espace libre}{3}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}\'Etude de la propagation pour un cannal Wifi}{3}{subsection.6.2}
+\contentsline {section}{\numberline {7}Conclusion}{3}{section.7}
+\contentsline {section}{\numberline {8}Annexes}{4}{section.8}
+\contentsline {section}{R\'ef\'erences}{5}{section.8}
